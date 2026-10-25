@@ -10,7 +10,7 @@ hand-written code. The interesting part is not that an agent wrote it; it is
 where the boundary was drawn:
 
 - Two thirds of the behaviour is deterministic. Counting, sorting, validation and
-  every file write are plain Python, covered by 168 tests that pass with no API
+  every file write are plain Python, covered by 170+ tests that pass with no API
   key on Python 3.10 through 3.13.
 - The model writes into a closed thirteen-category vocabulary it cannot extend,
   because an open set silently under-reports the user's worst weakness.
