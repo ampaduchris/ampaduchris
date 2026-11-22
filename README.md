@@ -4,7 +4,7 @@ I direct coding agents to build software. I write the specification, decide what
 
 **[german-b1-tutor](https://github.com/ampaduchris/german-b1-tutor)**: a writing tutor for the Goethe-Zertifikat B1 German exam.
 
-- Two thirds of the behaviour is plain Python with no model call. 177 tests pass with no API (application programming interface) key.
+- Two thirds of the behaviour is plain Python with no model call. 172 tests pass with no API (application programming interface) key at the v1.0.0 release.
 - The model writes into a closed vocabulary of thirteen error categories. It cannot add one, because an open set under-reports the learner's worst weakness.
 - A regression harness plants five errors and measures whether the model reports them, against a pinned model.
 - The build log records what went wrong and what is still not verified.
